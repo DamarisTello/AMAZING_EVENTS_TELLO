@@ -1,19 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 /*barra de navegacion*/
 
 .navbar{
    padding: 2rem;
+   background-color: #000000e5; 
 }
 .navbar-collapse{
    font-size: 15px;
    margin-left: 20px;
    padding: 10px;
-   gap: 50px;
 }
 
 /*carusel*/
 
 .carousel-item img{
-    max-width: auto;
     height: 200px;
     
 }
@@ -21,8 +26,56 @@
 .carousel-caption h5{
     background-color: rgba(42, 43, 44, 0.445);
     font-size: 30px;
-    padding: 30px 100px 30px 100px;
-    margin: bottom 15px;
+   
+    margin-bottom:  15px;
     border-color: rgba(12, 12, 12, 0.596);
     border-style: solid;
 }
+/*checkout category*/
+main{
+    background-color: rgba(0, 0, 0, 0.774)
+    
+}
+.form-check-label{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/*formulario*/
+.mb-3{
+
+    width: 50vw;
+    height: auto;
+    margin-top: 15px;
+    font-size: 20px ;
+    font-weight: bold;
+    color: black;
+}
+#mensagge{
+    height: 200px;
+}
+
+footer{
+    background-color: rgba(10, 9, 9, 0.884);
+}
+/*details*/
+.mb-4{
+    width: 50vw;
+    height:50vh;
+    margin-top: 15px;
+    font-size: 10px ;
+    font-weight: bold;
+    color: black;
+}
+.conteiner-principal{
+    width:50vw;
+}
+/*tabla*/
+table{
+    background-color: rgb(202, 209, 209);
+    margin-top: 30px;
+}
+h4{
+    background-color: rgb(221, 16, 194);
+}
+
