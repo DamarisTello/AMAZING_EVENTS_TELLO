@@ -4,7 +4,7 @@
    padding: 2rem;
 }
 .navbar-collapse{
-   font-size: 50px;
+   font-size: 15px;
    margin-left: 20px;
    padding: 10px;
    gap: 50px;
@@ -12,11 +12,17 @@
 
 /*carusel*/
 
-.carousel-items{
-    width: 75vw;
+.carousel-item img{
+    max-width: auto;
+    height: 200px;
+    
 }
-h5{
-    background-color: rgba(34, 32, 32, 0.685);
-    font-size:10px;
-    color: aqua;
+
+.carousel-caption h5{
+    background-color: rgba(42, 43, 44, 0.445);
+    font-size: 30px;
+    padding: 30px 100px 30px 100px;
+    margin: bottom 15px;
+    border-color: rgba(12, 12, 12, 0.596);
+    border-style: solid;
 }
